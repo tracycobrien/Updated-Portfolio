@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tracy O'Brien Portfolio</title>
+
+    <!--Animate CSS CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!--GoogleFonts-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,700,800,900" rel="stylesheet">
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Normalize CSS-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/normalize.css">
+    <!--Grid CSS-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/grid.css">
+    <!--Devicon-->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <!--My CSS-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!--My Media Queries-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/queries.css ">
+</head>
+
+<body>
+    <!--Header and Nav-->
+    <header>
+        <nav>
+            <div class="row">
+                <ul class="main-nav js--main-nav">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/open?id=11WmZ6WfO3suIcCNYIxu19fgtT3GUgHdU" target="_blank">Resume</a>
+                    </li>
+                </ul>
+                <a class="mobile-nav-icon js--nav-icon">
+                    <ion-icon name="menu" class="mobile-menu"></ion-icon>
+                </a>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col span-1-of-2 animated slideInLeft">
+                <h1 class="name-title">Tracy O'Brien</h1>
+                <h2 class="job-title">Full Stack Developer</h2>
+            </div>
+            <div class="col span-1-of-2 selfie animated slideInRight">
+                <img src="assets/images/pony.JPG">
+            </div>
+        </div>
+
+        <figure class="running horse">
+            <img src="assets/images/animated-horse-image-0251.gif">
+        </figure>
+
+        <a href="#" class="btn-arrow">
+            <i class="fa fa-angle-double-down js--scroll-down"></i>
+        </a>
+    </header>
+
+    <!--About Section-->
+    <section class="section-about js--section-about" id="about">
+        <div class="row">
+            <h2 class="about">About.</h2>
+            <p class="long-copy">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis cupiditate minima dolores at voluptate repellendus dolorum quidem. Nisi saepe rerum perspiciatis voluptates? Fugiat quo quisquam animi nisi enim hic! Natus!
+                <br>
+                <br> My favorite quote and something that I try to live by each day...
+                <br>
+                <br>
+                <center>
+                    <i>"Love what you do and you will never work a day of your life."</i>
+                </center>
+            </p>
+        </div>
+    </section>
+    <br>
+    <br>
+
+    <!--Portfolio Section-->
+    <section class="section-portfolio" id="portfolio">
+        <div class="row">
+            <h2 class="portSection">Portfolio</h2>
+        </div>
+
+        <ul class="portfolio-showcase clearfix">
+            <li>
+                <figure class="portPhoto" id="nurd-project">
+                    <img src="assets/images/catghost.png" alt="Nerdy Cat" class="button" id="modalBtn">
+                    </a>
+                </figure>
+            </li>
+            <li>
+                <!-- add id second, third, etc project -->
+                <figure class="portPhoto" id="second-project">
+                    <img src="assets/images/love.gif" alt="GifTastic" class="button" id="modalBtn2">
+                    </a>
+                </figure>
+            </li>
+            <li>
+                <figure class="portPhoto" id="getthegist-project">
+                        <img src="assets/images/getthegist.jpg" alt="Get the Gist">
+                    </a>
+                </figure>
+            </li>
+            <li>
+                <figure class="portPhoto" id="fourth-project">
+                    <a href="https://tracycobrien.github.io/Improved-Trivia-Game/" target="_blank"> 
+                        <img src="assets/images/space.jpg" alt="Space">
+                    </a>
+                </figure>
+            </li>
+        </ul>
+
+        <ul class="portfolio-showcase clearfix">
+            <li>
+                <figure class="portPhoto" id="fifth-project">
+                    <a href="https://tracycobrien.github.io/Giphy-dog-breed-API/" target="_blank">
+                        <img src="https://media.giphy.com/media/eYilisUwipOEM/giphy.gif" alt=" Dogs">
+                    </a>
+                </figure>
+            </li>
+            <li>
+                <figure class="portPhoto" id="sixth-project">
+                     <a href="https://tracycobrien.github.io/Unit-4-game/" target="_blank"> 
+                        <img src="https://media.giphy.com/media/fd2D4k81V08a4/giphy.gif" alt="Little blue box">
+                    </a>
+                </figure>
+            </li>
+            <li>
+                <figure class="portPhoto" id="seventh-project">
+                    <a href="https://tracycobrien.github.io/word-game/" target="_blank">
+                        <img src="assets/images/Trivia.png" alt="Triva">
+                    </a>
+                </figure>
+            </li>
+            <li>
+                <figure class="portPhoto" id="eighth-project">
+                    <a href="https://tracycobrien.github.io/TrainStation/" target="_blank">
+                        <img src="assets/images/train.jpg" alt="Train">
+                    </a>
+                </figure>
+            </li>
+        </ul>
+    </section>
+
+    <!--Modals-->
+    <div id="portfolioModal1" class="modal-background modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="closeBtn">&times;</span>
+                <h2 id="project-header-name"></h2>
+            </div>
+
+            <div class="modal-body">
+                <p id="project-body"></p>
+            </div>
+            <br>
+            <div class="modal-footer">
+                <h3>
+                    <a id="href-link" target="_blank"></a>
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <!--Skills-->
+    <section class="section-skills" id="skills">
+        <div class="row skillTitle">
+            <h2>
+                <span>Attorney, equestrian, clay pigeon hunter, and most importantly computer enthusiast.</span>
+            </h2>
+        </div>
+
+        <div class="container">
+
+            <!--First skillset Row-->
+            <div class="row">
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-html5-plain fa-5x  mt-2 s" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">HTML</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-css3-plain fa-5x  mt-2" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">CSS</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-bootstrap-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">BOOTSTRAP</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-javascript-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">JAVASCRIPT</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!--Second skillset Row-->
+            <div class="row">
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-jquery-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">JQuery</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-git-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">GIT</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-github-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">GitHub</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-mysql-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">MySQL</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!--Third skillset Row-->
+
+            <div class="row">
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-nodejs-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">Node JS</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-sequelize-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">Sequelize</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-express-original fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">Express</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-mocha-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">Mocha</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="row section-form" id="contact">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li>
+                        <p class="phone">
+                            <ion-icon name="call"></ion-icon> upon request</p>
+                    </li>
+                    <li>
+                        <p class="email">
+                            <ion-icon name="mail"></ion-icon>tracycobrien@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li>
+                        <a href="https://github.com/" target="_blank">
+                            <ion-icon name="logo-github" class="github"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <ion-icon name="logo-twitter" class="twitter"></ion-icon>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.linkedin.com/in/tracy-o-brien/" target="_blank">
+                            <ion-icon name="logo-linkedin" class="linkedin"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p class="footerCopyright">
+                Copyright &copy; 2019 Tracy O'Brien
+            </p>
+        </div>
+    </footer>
+    <!--Ion Icons CDN-->
+    <script src="https://unpkg.com/ionicons@4.1.2/dist/ionicons.js"></script>
+    <!--jQuery CDN-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--jQuery Flip-->
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <!--WayPoints jQuery-->
+    <script src="./assets/js/jquery.waypoints.min.js"></script>
+    <!--Custom JavaScript-->
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

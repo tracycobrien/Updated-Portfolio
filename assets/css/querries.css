@@ -1,0 +1,381 @@
+/*big tablet to 1200px (for widths smaller than the 1140 px row)*/
+@media only screen and (max-width: 1200px) {
+  .selfie img {
+    width: 280px;
+    height: 280px;
+    margin: 80px;
+    border-radius: 50%;
+  }
+
+  .flower img {
+    position: relative;
+    left: -390px;
+    bottom: 200px;
+  }
+}
+
+/*small tablet to big tablets: from 768px-1023px*/
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+
+  .name-title {
+    margin: 0;
+    font-size: 200%;
+    text-align: center;
+    margin-top: 50%;
+  }
+
+  .job-title {
+    font-size: 80%;
+    padding: 20px;
+  }
+
+  .selfie img {
+    width: 280px;
+    height: 280px;
+    margin: 80px;
+    border-radius: 50%;
+  }
+
+  .flower img {
+    position: relative;
+    left: -390px;
+    bottom: 200px;
+  }
+
+  .portfolio-showcase li {
+    display: block;
+    float: left;
+    width: 50%;
+  }
+
+  .icon-small {
+    width: 17px;
+    margin-right: 5px;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+}
+/*small phones to small tablets: from 481px-767px*/
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 30px 0;
+  }
+
+  .row,
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+
+  .main-nav {
+    display: none;
+  }
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+
+  .main-nav {
+    float: left;
+    margin-top: 35px;
+    margin-left: 25px;
+  }
+
+  .main-nav li {
+    display: block;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+    padding: 10px 0;
+    font-size: 100%;
+  }
+
+  .sticky .main-nav {
+    margin-top: 10px;
+  }
+
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    padding: 10px 0px;
+  }
+  .sticky .mobile-menu {
+    color: #555;
+  }
+  .sticky .mobile-nav-icon {
+    margin-top: 10px;
+  }
+
+  .name-title {
+    margin: 0;
+    font-size: 250%;
+    text-align: center;
+  }
+
+  .job-title {
+    font-size: 100%;
+    padding: 20px;
+  }
+
+  .selfie img {
+    width: 280px;
+    height: auto;
+    margin-bottom: 100px;
+    margin-top: -50px;
+    margin-left: 60px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+  }
+
+  .flower img {
+    display: none;
+  }
+
+  .long-copy {
+    line-height: 145%;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .about {
+    margin-right: 200px;
+    font-weight: 900;
+  }
+
+  h1 {
+    font-size: 180%;
+  }
+  h2 {
+    font-size: 150%;
+  }
+
+  .long-copy {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .app-screen {
+    width: 40%;
+  }
+
+  .about {
+    margin-right: 500px;
+    margin-top: 50px;
+    font-weight: 900;
+  }
+
+  .row .portSection {
+    margin-top: 70px;
+  }
+
+  .portfolio-showcase li {
+    display: block;
+    float: left;
+    width: 100%;
+  }
+
+  .portPhoto {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+  }
+
+  .modal-content {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+    width: 90%;
+  }
+  .skillTitle {
+    margin-top: 50px;
+  }
+  .section-skills {
+    margin-bottom: 80px;
+  }
+
+  .contactSection {
+    margin-top: -60px;
+  }
+
+  #send_it {
+    margin-left: -1%;
+  }
+
+  .row.section-form {
+    margin: 0;
+  }
+
+  .footer-nav {
+    float: none;
+  }
+
+  .footer-nav li {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-nav li p {
+    margin: 0;
+  }
+
+  .social-links {
+    margin-right: 0;
+    float: none;
+    text-align: center;
+  }
+
+  .footerCopyright {
+    text-align: center;
+  }
+}
+
+/*small phones: from 0-480px*/
+@media only screen and (max-width: 480px) {
+  html,
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  section {
+    padding: 25px 0;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 120%;
+  }
+  h2 {
+    font-size: 100%;
+  }
+
+  .name-title {
+    margin: 0;
+    font-size: 250%;
+    text-align: center;
+  }
+
+  .job-title {
+    font-size: 100%;
+    padding: 20px;
+  }
+
+  .selfie img {
+    width: 280px;
+    height: auto;
+    margin-bottom: 100px;
+    margin-top: -50px;
+    margin-left: 20px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+  }
+
+  .flower img {
+    display: none;
+  }
+
+  .long-copy {
+    line-height: 145%;
+    width: 85%;
+    margin-left: 10%;
+  }
+
+  .about {
+    margin-right: 200px;
+    font-weight: 900;
+  }
+
+  .portfolio-showcase li {
+    display: block;
+    float: left;
+    width: 100%;
+  }
+
+  .portPhoto {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+  }
+  .modal-content {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+    width: 90%;
+  }
+
+  .skillTitle {
+    margin-top: 50px;
+  }
+  .section-skills {
+    margin-bottom: 80px;
+  }
+
+  .contactSection {
+    margin-top: -60px;
+  }
+
+  #send_it {
+    margin-left: 10%;
+  }
+
+  .row.section-form {
+    margin: 0;
+  }
+
+  .footer-nav {
+    float: none;
+  }
+
+  .footer-nav li {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-nav li p {
+    margin: 0;
+  }
+
+  .social-links {
+    margin-right: 0;
+    float: none;
+    text-align: center;
+  }
+  .footerCopyright {
+    text-align: center;
+  }
+}
