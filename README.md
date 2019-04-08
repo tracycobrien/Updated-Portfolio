@@ -13,7 +13,7 @@ You will find the following on my page:
 https://www.linkedin.com/in/tracy-o-brien/
 https://github.com/tracycobrien
 
-* A link to a PDF of your resume https://drive.google.com/open?id=1qmcWRrJnNEAiFz6_VRI-_NvzlhvtyVvE
+* A link to a PDF of my resume https://drive.google.com/open?id=1qmcWRrJnNEAiFz6_VRI-_NvzlhvtyVvE
 
 * List of projects. For each project I have the following:
 
