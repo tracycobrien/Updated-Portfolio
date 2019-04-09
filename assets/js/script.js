@@ -99,7 +99,7 @@ var portPhoto = $(".portPhoto");
 //get close button
 var closeBtn = document.getElementsByClassName('closeBtn')[0];
 
-//isten for open click 
+//listen for open click 
 // portPhoto.addEventListener('click', openModal);
 portPhoto.click(openModal)
 //figure out this in vanilla js
