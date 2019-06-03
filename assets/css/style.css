@@ -346,6 +346,8 @@ header {
     margin: 0;
     overflow: hidden;
     background-color: #000;
+    width: 431px;
+    height: 323px;
 }
 
 .portPhoto img {
