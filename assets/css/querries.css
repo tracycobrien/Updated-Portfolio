@@ -6,12 +6,7 @@
     margin: 80px;
     border-radius: 50%;
   }
-
-  .flower img {
-    position: relative;
-    left: -390px;
-    bottom: 200px;
-  }
+  
 }
 
 /*small tablet to big tablets: from 768px-1023px*/
@@ -51,12 +46,6 @@
     height: 280px;
     margin: 80px;
     border-radius: 50%;
-  }
-
-  .flower img {
-    position: relative;
-    left: -390px;
-    bottom: 200px;
   }
 
   .portfolio-showcase li {
@@ -153,9 +142,6 @@
     border-top-left-radius: 50%;
   }
 
-  .flower img {
-    display: none;
-  }
 
   .long-copy {
     line-height: 145%;
@@ -303,9 +289,6 @@
     border-top-left-radius: 50%;
   }
 
-  .flower img {
-    display: none;
-  }
 
   .long-copy {
     line-height: 145%;
