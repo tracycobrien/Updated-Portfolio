@@ -45,7 +45,7 @@
     "id": "",
     "title": "Bamazon",
     "body": "<p>An Amazon-like storefront using MySQL. The app takes in orders from customers and depletes stock from the store's inventory.</br></br>Node.JS and MySQL </br></br>https://github.com/tracycobrien/bamazon.git</p>",
-    "link": "https://github.com/lydiarachel/Bamazon",
+    "link": "https://github.com/tracycobrien/bamazon.git",
     "cta": "View Code"
   },
   "eighth-project": {
